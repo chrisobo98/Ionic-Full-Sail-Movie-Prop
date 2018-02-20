@@ -1,0 +1,8 @@
+{
+  "name": "tbdating",
+  "app_id": "570f0926",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

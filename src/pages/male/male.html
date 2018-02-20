@@ -1,0 +1,178 @@
+<!--
+  Generated template for the MalePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar class="bar bar-header bar-assertive" align-title="center">  
+
+    <ion-title>
+        <img alt="Company Logo" height="40" src="assets/imgs/logo.png">
+    </ion-title>
+   
+
+</ion-navbar>
+  </ion-header>
+
+
+<ion-content padding>
+    <ion-slides padding>
+       
+      
+        <!-- 1st -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/9.jpg"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Jack, 22</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:30px;font-weight: 900">Nope!</p>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+       
+        <!-- second -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/10.jpg"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Cody, 22</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:pink;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+       
+        
+        <!-- third -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/11.jpg"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Paul, 23</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+  
+        <!-- 4 -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img #myImg src="assets/imgs/12.JPG"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Mark, 21</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+  
+        <!-- 5 -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/13.png"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Gage, 20</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+  
+        <!-- 6 -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/14.png"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Edward, 20</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+  
+        <!-- 7 -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img (click)="changeStyle()" #myImg src="assets/imgs/15.png"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Jeffrey, 23</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:20px;">Yes!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="heart"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+  
+        <!-- 8 -->
+        <ion-slide #mySlide (click)="changeStyle()" [style.background-color]="'pink'"><ion-img #myImg src="assets/imgs/16.JPG"></ion-img>
+          
+          <ion-card-content>
+            <h1 #cardTitle>Mateo, 22</h1>
+            <p #cardYes style="opacity:0;color:white;font-size:30px;font-weight: 900">Nope!</p>
+            <ion-icon #iconYes style="opacity:0;color:white;" name="thumbs-down"></ion-icon>
+          </ion-card-content>
+        
+          <ion-row>
+            <ion-col>
+                <button ion-button round #thumbsUp name="thumbs-up" style="background-color:red;">YES</button>
+            </ion-col>
+            <ion-col>
+                <button ion-button round #thumbsDown name="thumbs-down" style="background-color:gray;">NO</button>
+            </ion-col>
+          </ion-row>
+        </ion-slide>
+       
+        
+  
+      </ion-slides>
+    </ion-content>
